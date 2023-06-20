@@ -19,13 +19,11 @@ const config: GatsbyConfig = {
         // required; non-empty string
         //NOTE: Do not commit this to git. Process from env.
         prodKey: `RUDDERSTACK_PRODUCTION_WRITE_KEY`,
-        // prodKey: `1lgCItJ0FN5qSusbvZVESHjEHLq`,
         // if you have a development env for your rudderstack account, paste that key here
         // when process.env.NODE_ENV === 'development'
         // optional; non-empty string
         //NOTE: Do not commit this to git. Process from env.
         devKey: `RUDDERSTACK_DEV_WRITE_KEY`,
-        // devKey: `1lgCItJ0FN5qSusbvZVESHjEHLq`,
         // boolean (defaults to false) on whether you want
         // to include analytics.page() automatically
         // if false, see below on how to track pageviews manually
